@@ -1,0 +1,17 @@
+           List of relations
+ Schema |   Name    | Type  |  Owner   
+--------+-----------+-------+----------
+ public | empleados | table | postgres
+ public | usuarios  | table | postgres
+(2 rows)
+
+ desembolsos_core | monto_core  
+------------------+-------------
+             4812 | 45124350.88
+(1 row)
+
+ desembolsos_15nov_31dic | monto_15nov_31dic 
+-------------------------+-------------------
+                     604 |        6112291.50
+(1 row)
+
