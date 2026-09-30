@@ -17,7 +17,7 @@
 La evaluación se hizo contra las siete reglas de `politica/POLITICA-DE-SEGURIDAD.md`. Las cifras de cuentas y desembolsos provienen de las consultas al servidor PostgreSQL del paquete. El corte de los respaldos es el 31/12/2025.
 
 | Regla | Resultado, con cifras | ¿Cumple? | Archivo de evidencia |
-|---|---|---|
+|---|---|---|---|
 | R1 | `sr_bd` publica PostgreSQL en `0.0.0.0:55432`, accesible por todas las interfaces del equipo anfitrión. | No | `evidencias/P1_puertos.txt` |
 | R2 | La contraseña del administrador aparece en texto plano en `docker-compose.yml`, línea 10, y tiene 10 caracteres; la política exige 12 o más. | No | `evidencias/P2_credenciales.txt` |
 | R3 | `app_core` tiene el atributo `Superuser` además de `postgres`: 1 cuenta adicional con privilegio prohibido. | No | `evidencias/P3_roles.txt` |
